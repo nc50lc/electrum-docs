@@ -32,9 +32,9 @@ New/Restore. Enter a name for the wallet and select "Standard wallet".
 
 .. image:: png/standard_wallet.png
 
-Select "Use public or private keys"
+Select "Use a master key"
 
-.. image:: png/public_or_private.png
+.. image:: png/use_masterkey.png
 
 Paste your master public key in the box.
 
@@ -51,12 +51,15 @@ Create an unsigned transaction
 ------------------------------
 
 Go to the "send" tab on your online watching-only wallet,
-input the transaction data and press "Preview". A window pops up:
+input the transaction data and press "Send". A window pops up:
+
+.. image:: png/finalize.png
+
+Set the transaction's additional data then press "Finalize" and another window will open.
 
 .. image:: png/unsigned.png
 
-
-Press "save" and save the transaction file somewhere on your computer. Close the
+Press "Export" and save the transaction file somewhere on your computer. Close the
 window and transfer the transaction file to your offline
 machine (e.g. with a usb stick).
 
@@ -69,12 +72,12 @@ step.
 
 .. image:: png/sign.png
 
-Press "sign". Once the transaction is signed, the Transaction ID
+Press "Sign". Once the transaction is signed, the Transaction ID
 appears in its designated field.
 
 .. image:: png/signed.png
 
-Press save, store the file somewhere on your
+Press "Export", store the file somewhere on your
 computer, and transfer it back to your online machine.
 
 Broadcast your transaction
